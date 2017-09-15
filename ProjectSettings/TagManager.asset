@@ -22,6 +22,7 @@ TagManager:
   - portal1
   - portal2
   - lever
+  - fireball
   layers:
   - Default
   - TransparentFX

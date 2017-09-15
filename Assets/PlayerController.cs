@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour {
 			attackMode = true;
 			SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 			spriteRenderer.sprite = attackSprite;
-			attackTime = 0.5f;
+			attackTime = 0.25f;
 		} else if(attackTime <= 0){
 			SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 			spriteRenderer.sprite = idleSprite;

@@ -54,6 +54,7 @@
      <Compile Include="Assets\_Completed-Assets\Scripts\CompleteCameraController.cs" />
      <Compile Include="Assets\_Completed-Assets\Scripts\CompletePlayerController.cs" />
      <Compile Include="Assets\_Completed-Assets\Scripts\CompleteRotator.cs" />
+     <Compile Include="Assets\BossScript.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\EnemyPace.cs" />
      <Compile Include="Assets\LeverScript.cs" />
