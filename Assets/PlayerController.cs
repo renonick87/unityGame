@@ -199,7 +199,7 @@ public class PlayerController : MonoBehaviour {
 		}/* else if (other.gameObject.CompareTag ("enemyBody")) {
 			//lose health
 		}*/
-		if (other.gameObject.CompareTag ("ground")) {
+		if (other.gameObject.CompareTag ("ground") || other.gameObject.CompareTag("actualGround")) {
 			grounded = false;
 		}
 		if (other.gameObject.CompareTag ("ladder")) {
@@ -226,6 +226,8 @@ public class PlayerController : MonoBehaviour {
 			//Debug.Log (GameObject.Find ("portal(1)").transform.position);
 			teleported = true;
 			teleportTime = 0.01f;
+		} else if (other.gameObject.CompareTag ("fireball") || other.gameObject.CompareTag("spike")) {
+			health--;
 		}
 	}
 

@@ -57,6 +57,7 @@
      <Compile Include="Assets\BossScript.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\EnemyPace.cs" />
+     <Compile Include="Assets\FireScript.cs" />
      <Compile Include="Assets\LeverScript.cs" />
      <Compile Include="Assets\PlatformPath.cs" />
      <Compile Include="Assets\PlayerController.cs" />
@@ -82,6 +83,7 @@
      <Compile Include="Assets\Scripts\ScoreShadow.cs" />
      <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\SpikeScript.cs" />
      <Compile Include="Assets\SwordScript.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
      <None Include="Assets\Pixel Bird\Read Me.txt" />
